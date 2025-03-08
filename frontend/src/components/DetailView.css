@@ -1,0 +1,62 @@
+/* Container for the invoice details */
+.invoice-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Card for invoice details */
+.invoice-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.invoice-card:hover {
+  transform: scale(1.03);
+}
+
+/* Store name heading */
+.store-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+/* Invoice date styling */
+.invoice-date {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Total price */
+.total-price {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #28a745;
+}
+
+/* Loading text */
+.loading-text {
+  text-align: center;
+  font-size: 24px;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Error message */
+.error-message {
+  text-align: center;
+  font-size: 24px;
+  color: red;
+  margin-top: 20px;
+}
